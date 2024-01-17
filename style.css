@@ -576,10 +576,13 @@ nav .fa-solid{
     flex-basis: 42%;
     flex-grow: 1;
 } 
-.place-video{
+.place-img{
     flex-basis: 42%;
     flex-grow: 1;
 } 
+.place-img img{
+    width: 100%;
+}
 .perfect-content h3{
     color: #131318;
     font-size: 2.5rem;
@@ -830,6 +833,7 @@ footer{
         padding: 0 20px;
     }
     .tour-content h3{
+        font-size: 20px;
         padding-bottom: 1.5rem;
     }
     .tour-content-p2{
@@ -838,9 +842,15 @@ footer{
     .desti-box{
         padding: 20px;
     }
+    .desti-box-content h3{
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
     .desti-box-content p{
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 16px;
+        margin: 0px;
     }
     .row-1, .row-2, .row-3{
         flex-direction: column;
@@ -849,8 +859,15 @@ footer{
         width: 100%;
         height: 176px;
     }
+    .country{
+        font-size: 20px;
+        font-weight: 700;
+    }
     .why-us{
         padding: 0px 20px;
+    }
+    .why-us-content h3{
+        font-size: 20px;
     }
     .why-us-content p{
         padding-left: 0px;
@@ -860,12 +877,137 @@ footer{
     flex-direction: column;
 
     }
-    .deals_1_card{
-        flex-basis: 100%;
-    }
-    .deals_1_box{
-        margin: 0px;
-    }
+   .deals_1{
+    margin:0px 20px
+}
+.deals_1_box{
+    padding: 16px;
+    height: 500px;
+    align-items: end;
+}
+.deals_1_card{
+    padding: 24px;
+    flex-basis: 100%;
+}
+.deals_1_card p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.deals_1_card h2{
+    font-size: 20px;
+}
+.deals_1_card h3{
+    font-size: 16px;
+}
+.deals_1_card button{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 9px 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.deals-content p{
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 16px;
+}
+.deals-content{
+    margin-bottom: 16px;
+}
+.deals-content h3{
+    font-size: 20px;
+}
+.trip{
+    flex-direction: column;
+    align-items: start;
+}
+.deals_1_card button{
+    margin-top: 10px;
+    padding: 8px 16px;
+}
+.deals_2{
+    margin:0px 20px;
+    padding: 0px;
+}
+.deals_2_box{
+    padding: 16px;
+    height: 500px;
+    align-items: end;
+}
+.deals_2_card{
+    padding: 24px;
+    flex-basis: 100%;
+}
+.deals_2_card p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.deals_2_card h2{
+    font-size: 20px;
+}
+.deals_2_card h3{
+    font-size: 16px;
+}
+.deals_2_card button{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 9px 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.trip{
+    flex-direction: column;
+    align-items: start;
+}
+.deals_2_card button{
+    margin-top: 10px;
+    padding: 8px 16px;
+}
+.deals_3{
+    margin:0px 20px;
+    padding-bottom: 24px;
+}
+.deals_3_box{
+    padding: 16px;
+    height: 500px;
+    align-items: end;
+}
+.deals_3_card{
+    padding: 24px;
+    flex-basis: 100%;
+}
+.deals_3_card p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.deals_3_card h2{
+    font-size: 20px;
+}
+.deals_3_card h3{
+    font-size: 16px;
+}
+.deals_3_card button{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 9px 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.trip{
+    flex-direction: column;
+    align-items: start;
+}
+.deals_3_card button{
+    margin-top: 10px;
+    padding: 8px 16px;
+}
     .perfect-place{
         padding: 0px 20px;
     }
@@ -882,6 +1024,7 @@ footer{
        flex-basis: 100%;
     } 
     .perfect-content h3{
+        font-size: 28px;
         padding-bottom: 1rem;
     }
     .newsletter{
@@ -896,10 +1039,40 @@ footer{
     
     }
     .offer-box{
-        padding: 25px 10px;
-        width: 320px;
+        padding: 16px 8px;
+        width: 214px;
         right: 6px;
-        bottom: 59px;
+        bottom: 38px;
         transform: rotate(340deg);
     }
+    .offer-box h2{
+        font-size: 22px;
+    }
+    .offer-box h4{
+        font-size: 16px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-logo{
+        align-items: center;
+    }
+    .footer-logo h4{
+        font-size: 22px;
+    }
+    .footer-content p{
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        padding: 16px 0px;
+    }
+    .footer-icon {
+        padding-bottom: 24px;
+        padding-top: 0px;
+    }
+    .footer-copyright {
+        padding: 24px 0px;
+        width: 350px;
+        margin:0px;
+    }
+   
 }
