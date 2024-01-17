@@ -74,7 +74,7 @@ nav .fa-solid{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('Images/banner.png');
+    background-image: url('/Images/banner.png');
     border-radius: 16px;
     height: 500px;
     display: flex;
@@ -346,7 +346,7 @@ nav .fa-solid{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('Images/Group\ 39.png');
+    background-image: url('/Images/Group\ 39.png');
     padding: 55px;
     height: 500px;
     display: flex;
