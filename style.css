@@ -339,9 +339,6 @@ nav .fa-solid{
     padding-left: 250px;
     padding-right: 250px;
 }
-.deals_1{
-    padding: 50px 0px;
-}
 .deals_1_box{
     background-size: cover;
     background-position: center;
@@ -575,6 +572,7 @@ nav .fa-solid{
  .perfect-content{
     flex-basis: 42%;
     flex-grow: 1;
+    padding-right: 28px;
 } 
 .place-img{
     flex-basis: 42%;
